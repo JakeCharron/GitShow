@@ -1,0 +1,16 @@
+body{
+    background-color: #625df0;
+}
+#userTitle{
+    width: 260px;
+    height: 50px;
+    margin: 10px auto;
+    /* position: relative; */
+
+}
+#publicRepos{
+    
+}
+#privateRepos{
+    
+}

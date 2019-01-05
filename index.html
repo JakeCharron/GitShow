@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GitShow</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div>
+        <h1 id="userTitle">Git Username:</h1>
+        <input type="text" id="gitUser" value="JakeCharron">
+    </div>
+    <div>
+        <h1 id="repoTitle">Select Repos: </h1>
+        <p id="publicTitle">Public Repos</p>
+        <input type="checkbox" id="publicRepos">
+        <p id="privateTitle">Private Repos</p>
+        <input type="checkbox" id="privateRepos">
+        <div id="repos"></div>
+    </div>
+    <button id="submit" onclick="submit();">Submit</button>
+</body>
+</html>

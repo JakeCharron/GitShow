@@ -1,0 +1,17 @@
+{
+  "name": "gitshow",
+  "version": "1.0.0",
+  "description": "GitShow is an electron app that creates an E-Portfolio using a github username.",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Jake Charron",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "electron": "^4.0.0",
+    "request": "^2.88.0"
+  }
+}
